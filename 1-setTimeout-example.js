@@ -1,10 +1,6 @@
-setTimeout(
-    //to delay the execution
-    () =>  {
-        console.log('Hello after 4 seconds');
-    },
-    4000//milliseconds
-);
+const func = () => {
+    console.log('Hello after 4 sec')
+};
 
-//function Add(){}//Function keyword
-//const Add=()=>{}//arrow syntax function
+setTimeout(func, 4000);
+//took the function out, it is more cleaner
