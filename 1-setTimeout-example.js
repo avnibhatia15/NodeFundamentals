@@ -5,3 +5,6 @@ setTimeout(
     },
     4000//milliseconds
 );
+
+//function Add(){}//Function keyword
+//const Add=()=>{}//arrow syntax function
